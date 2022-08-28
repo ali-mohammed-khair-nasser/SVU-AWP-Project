@@ -1,0 +1,33 @@
+name: Deploy to Staging
+
+on: 
+  pull_request:
+    types: [ closed ]
+    branches: [ develop ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '16'
+      - uses: actions/cache@v2
+        id: npm-cache
+        with:
+          path: '**/node_modules'
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+
+      - name: Installing Dependencies
+        if: steps.npm-cache.outputs.cache-hit != 'true'
+        run: npm install
+
+      - name: Build & Generate Project Files
+        run: npm run build && npm run generate
+        
+      - name: Install Surge
+        run: npm install -g surge
+        
+      - name: Deploy to Surge
+        run:  surge ./dist https://awp-project.surge.sh/ --token ${{secrets.AWP_SURGE_TOKEN}}
