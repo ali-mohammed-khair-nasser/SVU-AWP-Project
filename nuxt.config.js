@@ -1,6 +1,6 @@
 export default {
   head: {
-    title: 'AWP - Home',
+    title: 'Sharia Compliant Personal, Business & Corporate Banking | Emirates Islamic',
     htmlAttrs: { lang: 'en' },
     meta: [
       {

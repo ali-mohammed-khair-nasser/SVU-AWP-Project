@@ -3,6 +3,64 @@
 
 header { @apply fixed top-0 z-40 w-full flex-none transition-colors duration-500;
   transition: $--transition;
+  border-bottom: $--border-light;
 
-  .header-container { @apply flex items-center h-full py-3 mx-auto max-w-7xl sm:px-3 lg:px-6; }
+  .header-container { @apply flex items-center h-full py-2 mx-auto max-w-7xl sm:px-3 lg:px-6;
+    .logo-area { @apply flex items-center flex-1 justify-center;
+      user-select: none;
+      img { @apply w-11/12 mx-auto; }
+    }
+
+    .icons-area { @apply flex items-center justify-end gap-1 lg:flex-1;
+
+      li { @apply relative mx-1 leading-normal;
+        &::after { @apply absolute h-4 w-0.5 -right-2 top-1/2;
+          content: '';
+          background-color: $--color-gray-4;
+          transform: translateY(-50%);
+        }
+        
+        &:last-of-type { @apply -mr-3;
+          &::after { @apply hidden; }
+        }
+      }
+  
+      svg { @apply w-12 h-12 p-3 cursor-pointer rounded-full;
+        transition: $--transition;
+        color: $--color-body;
+  
+        &:hover { color: $--color-primary; }
+      }
+    }
+
+    .dropdown { @apply cursor-pointer rounded px-1 pr-3 font-medium;
+      color: $--color-body;
+      font-size: $--font-body-2;
+      font-family: $--font-arabic;
+  
+      svg { @apply w-10 px-0 -mr-1 -mt-1 inline-block; }
+      
+      &:hover { color: $--color-primary;
+        svg { color: $--color-primary; }
+        .options { @apply left-0 opacity-100; }
+      }
+  
+      .options { @apply absolute bg-white rounded-lg shadow-xl shadow-slate-200 p-2 left-5 opacity-0;
+        transition: $--transition;
+        min-width: 10rem;
+  
+        li { @apply py-2 px-3 mx-0;
+          font-size: $--font-body-3;
+          color: $--color-body;
+          transition: $--transition;
+  
+          &:last-of-type { @apply mr-0; }
+          &::after { @apply hidden; }
+          &:hover { color: $--color-primary; }
+        }
+  
+        .selected { color: $--color-primary; }
+      }
+    }
+  }
 }

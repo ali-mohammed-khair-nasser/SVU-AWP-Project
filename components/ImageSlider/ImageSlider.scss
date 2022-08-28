@@ -1,0 +1,6 @@
+@import '@/assets/scss/variables';
+@import '@/assets/scss/breakpoints';
+
+.slider { @apply w-full bg-slate-50 mt-16;
+  height: calc(100vh - 64px);
+}
