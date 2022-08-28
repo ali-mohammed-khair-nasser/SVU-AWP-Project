@@ -24,7 +24,7 @@
         <ul class="icons-area">
           <li>
             <div class="dropdown">
-              <outline-translate-icon />({{ $t('common.language-name') }})
+              <outline-translate-icon />{{ $t('common.language-name') }}
               <div class="options">
                 <ul>
                   <li
