@@ -1,0 +1,19 @@
+// Define media query breakpoints for desktops
+@mixin desktop-screens {
+  @media (max-width: 1440px) { @content; }
+}
+
+// Define media query breakpoints for tablets
+@mixin tablet-screens {
+  @media (max-width: 1023px) { @content; }
+}
+
+// Define media query breakpoints for iPad pro
+@mixin iPad-pro-screens {
+  @media (min-width: 1024px) and (max-width: 1279px) { @content; }
+}
+
+// Define media query breakpoints for mobile
+@mixin mobile-screens {
+  @media (max-width: 599px) { @content; }
+}

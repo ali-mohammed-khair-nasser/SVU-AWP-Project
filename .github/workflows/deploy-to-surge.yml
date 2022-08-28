@@ -1,0 +1,30 @@
+name: Deploy to Surge.sh
+
+on: 
+  push:
+    branches: [ main ]
+
+jobs:
+  deploy:
+      runs-on: ubuntu-latest
+      steps:
+        - uses: actions/checkout@v2
+        - uses: actions/setup-node@v2
+          with:
+            node-version: '16'
+        - uses: actions/cache@v2
+          id: npm-cache
+          with:
+            path: '**/node_modules'
+            key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+        - name: Installing dependencies
+          if: steps.npm-cache.outputs.cache-hit != 'true'
+          run: npm install
+        - name: Building
+          run: npm run build && npm run generate
+          
+        - name: Install Surge
+          run: npm install -g surge
+          
+        - name: Deploy to Surge
+          run:  surge ./dist https://awp-project.surge.sh/ --token ${{secrets.SURGE_TOKEN}}

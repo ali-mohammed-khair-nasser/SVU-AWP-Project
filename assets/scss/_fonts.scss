@@ -1,0 +1,270 @@
+// DM Sans: Normal regular
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/DMSans/normal/DMSans-Regular.woff2) format('woff2');
+  font-display: swap;
+}
+
+// DM Sans: Normal medium
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: url(../fonts/DMSans/normal/DMSans-Medium.woff2) format('woff2');
+  font-display: swap;
+}
+
+// DM Sans: Normal bold
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url(../fonts/DMSans/normal/DMSans-Bold.woff2) format('woff2');
+  font-display: swap;
+}
+
+// DM Sans: Italic
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: url(../fonts/DMSans/italic/DMSans-Italic.woff2) format('woff2');
+  font-display: swap;
+}
+
+// DM Sans: Italic medium
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 500;
+  src: url(../fonts/DMSans/italic/DMSans-MediumItalic.woff2) format('woff2');
+  font-display: swap;
+}
+
+// DM Sans: Italic bold
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 700;
+  src: url(../fonts/DMSans/italic/DMSans-BoldItalic.woff2) format('woff2');
+  font-display: swap;
+}
+
+
+// Poppins: Normal thin
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 100;
+  src: url(../fonts/Poppins/normal/Poppins-Thin.woff2) format('woff2');
+  font-display: swap;
+}
+
+// Poppins: Normal extra light
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 200;
+  src: url(../fonts/Poppins/normal/Poppins-ExtraLight.woff2) format('woff2');
+  font-display: swap;
+}
+
+// Poppins: Normal light
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  src: url(../fonts/Poppins/normal/Poppins-Light.woff2) format('woff2');
+  font-display: swap;
+}
+
+// Poppins: Normal regular
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/Poppins/normal/Poppins-Regular.woff2) format('woff2');
+  font-display: swap;
+}
+
+// Poppins: Normal medium
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  src: url(../fonts/Poppins/normal/Poppins-Medium.woff2) format('woff2');
+  font-display: swap;
+}
+
+// Poppins: Normal semibold
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  src: url(../fonts/Poppins/normal/Poppins-SemiBold.woff2) format('woff2');
+  font-display: swap;
+}
+
+// Poppins: Normal bold
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  src: url(../fonts/Poppins/normal/Poppins-Bold.woff2) format('woff2');
+  font-display: swap;
+}
+
+// Poppins: Normal extra bold
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 800;
+  src: url(../fonts/Poppins/normal/Poppins-ExtraBold.woff2) format('woff2');
+  font-display: swap;
+}
+
+// Poppins: Normal black
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 900;
+  src: url(../fonts/Poppins/normal/Poppins-Black.woff2) format('woff2');
+  font-display: swap;
+}
+
+// Poppins: Italic thin
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 100;
+  src: url(../fonts/Poppins/italic/Poppins-ThinItalic.woff2) format('woff2');
+  font-display: swap;
+}
+
+// Poppins: Italic extra light
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 200;
+  src: url(../fonts/Poppins/italic/Poppins-ExtraLightItalic.woff2) format('woff2');
+  font-display: swap;
+}
+
+// Poppins: Italic light
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 300;
+  src: url(../fonts/Poppins/italic/Poppins-LightItalic.woff2) format('woff2');
+  font-display: swap;
+}
+
+// Poppins: Italic regular
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 400;
+  src: url(../fonts/Poppins/italic/Poppins-Italic.woff2) format('woff2');
+  font-display: swap;
+}
+
+// Poppins: Italic medium
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 500;
+  src: url(../fonts/Poppins/italic/Poppins-MediumItalic.woff2) format('woff2');
+  font-display: swap;
+}
+
+// Poppins: Italic semibold
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 600;
+  src: url(../fonts/Poppins/italic/Poppins-SemiBoldItalic.woff2) format('woff2');
+  font-display: swap;
+}
+
+// Poppins: Italic bold
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 700;
+  src: url(../fonts/Poppins/italic/Poppins-BoldItalic.woff2) format('woff2');
+  font-display: swap;
+}
+
+// Poppins: Italic extra bold
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 800;
+  src: url(../fonts/Poppins/italic/Poppins-ExtraBoldItalic.woff2) format('woff2');
+  font-display: swap;
+}
+
+// Poppins: Italic black
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 900;
+  src: url(../fonts/Poppins/italic/Poppins-BlackItalic.woff2) format('woff2');
+  font-display: swap;
+}
+
+// Neo Sans Arabic: Light
+@font-face {
+  font-family: 'Neo Sans Arabic';
+  font-style: normal;
+  font-weight: 200;
+  src: url(../fonts/NeoSansArabic/normal/NeoSansArabicLight.woff2) format('woff2');
+  font-display: swap;
+}
+
+// Neo Sans Arabic: Regular
+@font-face {
+  font-family: 'Neo Sans Arabic';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/NeoSansArabic/normal/NeoSansArabicRegular.woff2) format('woff2');
+  font-display: swap;
+}
+
+// Neo Sans Arabic: Medium
+@font-face {
+  font-family: 'Neo Sans Arabic';
+  font-style: normal;
+  font-weight: 600;
+  src: url(../fonts/NeoSansArabic/normal/NeoSansArabicMedium.woff2) format('woff2');
+  font-display: swap;
+}
+
+// Neo Sans Arabic: Bold
+@font-face {
+  font-family: 'Neo Sans Arabic';
+  font-style: normal;
+  font-weight: 700;
+  src: url(../fonts/NeoSansArabic/normal/NeoSansArabicBold.woff2) format('woff2');
+  font-display: swap;
+}
+
+// Neo Sans Arabic: Black
+@font-face {
+  font-family: 'Neo Sans Arabic';
+  font-style: normal;
+  font-weight: 800;
+  src: url(../fonts/NeoSansArabic/normal/NeoSansArabicBlack.woff2) format('woff2');
+  font-display: swap;
+}
+
+// Neo Sans Arabic: Ultra
+@font-face {
+  font-family: 'Neo Sans Arabic';
+  font-style: normal;
+  font-weight: 900;
+  src: url(../fonts/NeoSansArabic/normal/NeoSansArabicUltra.woff2) format('woff2');
+  font-display: swap;
+}

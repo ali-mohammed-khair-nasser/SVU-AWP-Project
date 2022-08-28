@@ -1,0 +1,11 @@
+// Import tailwindCSS general files
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// Import general style files
+@import './breakpoints';
+@import './variables';
+@import './fonts';
+@import './scrollbar';
+@import './no_highlights';

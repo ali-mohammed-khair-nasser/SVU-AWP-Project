@@ -1,0 +1,11 @@
+html::-webkit-scrollbar { @apply w-1.5;
+	background-color: $--color-mercury;
+}
+
+html::-webkit-scrollbar-thumb { @apply rounded-lg;
+	background-color: #BBB;
+}
+
+html::-webkit-scrollbar-track { @apply rounded-lg;
+	background-color: $--color-mercury;
+}

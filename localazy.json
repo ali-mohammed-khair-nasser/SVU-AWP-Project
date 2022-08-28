@@ -1,0 +1,12 @@
+{
+  "writeKey": "GET_LOCALAZY_KEY",
+  "readKey": "GET_LOCALAZY_KEY",
+  "upload": {
+    "type": "json",
+    "files": "i18n/en.json"
+  },
+  "download": {
+    "includeSourceLang": true,
+    "files": "i18n/${lang}.json"
+  }
+}
