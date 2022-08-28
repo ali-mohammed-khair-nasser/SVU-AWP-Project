@@ -1,7 +1,5 @@
 <template>
-  <div class="slider">
-    
-  </div>
+  <div class="slider" />
 </template>
 
 <script lang="ts">
